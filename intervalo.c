@@ -1,0 +1,26 @@
+#include<stdio.h>
+
+int main(){
+    
+    double value;
+    
+    scanf("%lf", &value);
+
+    if(value < 0 || value > 100){
+        printf("Fora de intervalo\n");
+    }
+    if(value >= 0 && value <= 25){
+        printf("Intervalo [0,25]\n");
+    }
+    else if(value > 25 && value <= 50){
+        printf("Intervalo (25,50]\n");
+    }
+    else if(value > 50 && value <= 75){
+        printf("Intervalo (50,75]\n");
+    }
+    else if(value > 50 && value <= 100){
+        printf("Intervalo (75,100]\n");
+    }    
+
+    return 0;
+}
