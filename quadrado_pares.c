@@ -12,6 +12,5 @@ int main(){
              printf("%d^2 = %d\n", x, val);
         }        
     }    
-    
     return 0;
 }

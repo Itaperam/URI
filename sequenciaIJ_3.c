@@ -11,8 +11,7 @@ int main(){
         if(j - i == 4){
             j = j + 5;
             i = i+2;
-        }       
-            
+        }             
     } 
     return 0;
 }

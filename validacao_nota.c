@@ -16,7 +16,7 @@ int main(){
                 n1 = n;
             }
             else if(n1 != -1 && n2 == -1){
-                n2 = n;
+                n2 = n;a
                 media = (n1+n2)/2;
                 printf("media = %.2lf\n", media);
                 j++;               
